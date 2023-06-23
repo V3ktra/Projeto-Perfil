@@ -3,14 +3,23 @@ body{
 }
 h1{
     font-size:50px; 
-    color: crimson;
+    background-image: linear-gradient(to top, white, black);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
     text-align: center; 
 }
 p{
-    background-image: linear-gradient(to right, aqua, purple); 
+    background-image: linear-gradient(to right, red, red, orange,yellow, lime,green, blue, purple, purple); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     font-size: 40px;
     text-align: center; 
     text-transform: uppercase; 
+}
+img{
+    position: absolute;
+    width: 50%;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
